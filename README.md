@@ -12,3 +12,7 @@
         ```Terminal
          firebase login
         ```
+       2. Active cli
+        ```Terminal
+         dart pub global activate flutterfire_cli
+        ```
