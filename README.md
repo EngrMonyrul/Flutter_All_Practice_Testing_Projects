@@ -22,6 +22,16 @@
         ```
         4. Select database
         5. Select platform
+        6. Add
+         ```Terminal
+          flutter pub add firebase_core
+         ```
+       ```Terminal
+          flutter pub add firebase_auth
+         ```
+       ```Terminal
+          flutter pub add cloud_firestore
+         ```
 
 - If you face any problem to setup firebase in your project like below, then -
 
@@ -35,16 +45,17 @@ At line:1 char:1
     + FullyQualifiedErrorId : UnauthorizedAccess
 ```
 
-- Then,
+- Open window powershell in administration mode then,
     1. Check current execution policy
         ```Powershell
        Get-ExecutionPolicy
        ```
-    2. If it's not remote then change
+    2. If it's Restricted then change
         ```Powershell
        Set-ExecutionPolicy RemoteSigned
        ```
-    3. After sign in make it restriction
+    3. After all firebase setup make it restriction
         ```Powershell
        Set-ExecutionPolicy Restricted
        ```
+
