@@ -26,10 +26,10 @@
          ```Terminal
           flutter pub add firebase_core
          ```
-       ```Terminal
+         ```Terminal
           flutter pub add firebase_auth
          ```
-       ```Terminal
+         ```Terminal
           flutter pub add cloud_firestore
          ```
 
@@ -58,4 +58,8 @@ At line:1 char:1
         ```Powershell
        Set-ExecutionPolicy Restricted
        ```
-
+- Setup shfingerprint for android using windows powershell
+   ```Terminal
+    - keytool -list -v -keystore "C:\Users\dell\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+   ```
+  
